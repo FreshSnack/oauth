@@ -21,10 +21,10 @@ public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
 
     @Override
     public void configure(WebSecurity web) throws Exception {
-        /*web.ignoring().antMatchers("/authorize")
+        web.ignoring().antMatchers("/authorize")
                 .antMatchers("/oauth2/callback")
-        .antMatchers("/home");*/
-        web.ignoring().antMatchers("/oauth2/callback");
+        .antMatchers("/home");
+        /*web.ignoring().antMatchers("/oauth2/callback");*/
         super.configure(web);
     }
 }
