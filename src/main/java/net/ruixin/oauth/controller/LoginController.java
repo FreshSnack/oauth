@@ -59,6 +59,8 @@ public class LoginController {
         return "redirect:/home";
     }
 
+
+
     @GetMapping("/home")
     @ResponseBody
     public String home() {
