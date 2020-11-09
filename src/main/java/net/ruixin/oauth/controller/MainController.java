@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class MainController {
 
     /**
-     *
+     * 测试
      * @return
      */
     @RequestMapping({"/", "/hello"})
